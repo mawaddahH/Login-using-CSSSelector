@@ -39,17 +39,17 @@ public class ChromeWebDriverAss3W9D3 {
 		// Find username TextField by tag, id, and attribute
 		WebElement username = driver.findElement(By.cssSelector("input#email[name='email']"));
 		username.sendKeys("Mawaddah");
-		Thread.sleep(2000);
+//		Thread.sleep(2000);
 		
 		// Find password TextField by tag, id, and attribute
 		WebElement password = driver.findElement(By.cssSelector("input#pass[name='pass']"));
 		password.sendKeys("Hanbali");
-		Thread.sleep(2000);
+//		Thread.sleep(2000);
 		
 		// Find login Button by tag and attribute
 		WebElement button = driver.findElement(By.cssSelector("button[name='login']"));
 		button.click();
-		Thread.sleep(2000);
+//		Thread.sleep(2000);
 		
 		
 	}
