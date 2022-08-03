@@ -37,7 +37,7 @@ I opened the website, then take web elements, and then add them to the code I us
 `tag#id[attribute=value]`.
 And cssSelector with tag and attribute as syntax: `tag[attribute=value]` .
 
-The cssSelector are:
+The cssSelector I wrote it are:
 - Username TextField
 ```md
 input#email[name='email']
